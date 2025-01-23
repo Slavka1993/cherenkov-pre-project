@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         UserDao userDao = new UserDaoJDBCImpl("pipl");
         if (Util.getConnection() != null) {
-            System.out.println("Соединение установлено!");
+            System.out.println("Соединение установлено!!!");
         }
 
         userDao.createUsersTable();
